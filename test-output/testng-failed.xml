@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Automation]">
+  <parameter name="browser" value="chrome"/>
+  <test name="testngTest(failed)">
+    <classes>
+      <class name="tvc.Login">
+        <methods>
+          <include name="tvcLogin"/>
+          <include name="browserSetUp"/>
+          <include name="loginHelium"/>
+        </methods>
+      </class> <!-- tvc.Login -->
+    </classes>
+  </test> <!-- testngTest(failed) -->
+</suite> <!-- Failed suite [Automation] -->
